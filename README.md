@@ -17,8 +17,22 @@ Welcome to the Python Study Wiki. This Wiki serves as a central repository for t
 - [KR\_Tuple](https://github.com/somaz94/python-study/wiki/KR_Tuple)
 - [KR\_Dictionary](https://github.com/somaz94/python-study/wiki/KR_Dictionary)
 - [KR\_Set](https://github.com/somaz94/python-study/wiki/KR_Set)
-
-
+- [KR\_Bool](https://github.com/somaz94/python-study/wiki/KR_Bool)
+- [KR\_Variable](https://github.com/somaz94/python-study/wiki/KR_Variable)
+- [KR\_If](https://github.com/somaz94/python-study/wiki/KR_If)
+- [KR\_For](https://github.com/somaz94/python-study/wiki/KR_For)
+- [KR\_While](https://github.com/somaz94/python-study/wiki/KR_While)
+- [KR\_Function](https://github.com/somaz94/python-study/wiki/KR_Function)
+- [KR\_InputOutput](https://github.com/somaz94/python-study/wiki/KR_InputOutput)
+- [KR\_FileIO](https://github.com/somaz94/python-study/wiki/KR_FileIO)
+- [KR\_ProgramIO](https://github.com/somaz94/python-study/wiki/KR_ProgramIO)
+- [KR\_Class](https://github.com/somaz94/python-study/wiki/KR_Class)
+- [KR\_Module](https://github.com/somaz94/python-study/wiki/KR_Module)
+- [KR\_Package](https://github.com/somaz94/python-study/wiki/KR_Package)
+- [KR\_Exception](https://github.com/somaz94/python-study/wiki/KR_Exception)
+- [KR\_BuiltIn](https://github.com/somaz94/python-study/wiki/KR_BuiltIn)
+- [KR\_StandardLibrary](https://github.com/somaz94/python-study/wiki/KR_StandardLibrary)
+- [KR\_ExternalLibrary](https://github.com/somaz94/python-study/wiki/KR_ExternalLibrary)
 
 <br/>
 
