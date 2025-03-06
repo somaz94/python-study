@@ -132,11 +132,6 @@ Welcome to the Python Study Wiki. This Wiki serves as a central repository for t
 
 <br/>
 
-### Advanced 
-
-
-<br/>
-
 ## English Version (영어 버전)
 
 
