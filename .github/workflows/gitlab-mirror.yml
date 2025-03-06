@@ -1,0 +1,69 @@
+name: Backup GitHub to GitLab
+
+on:
+  push:
+    branches:
+      - main  # main 브랜치 변경 시 동기화
+    paths-ignore:
+      - .github/workflows/*
+  schedule:
+    - cron: "0 10 * * *"  # Runs daily at 10 AM UTC(=KST 19:00)
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout GitHub Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 전체 히스토리를 가져오도록 설정
+          # lfs: true      # Git LFS 파일도 가져오기
+          
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: Create Wiki Directory
+        run: mkdir -p wiki
+        
+      - name: Checkout Wiki Repository
+        run: |
+          git clone https://github.com/somaz94/python-study.wiki.git temp_wiki
+          
+      - name: Copy Wiki Content
+        run: |
+          cp -r temp_wiki/* wiki/
+          rm -rf temp_wiki
+          
+      - name: Check for Changes
+        id: git-check
+        run: |
+          git add wiki/
+          git status --porcelain
+          echo "changes=$(git status --porcelain | wc -l)" >> $GITHUB_OUTPUT
+
+      - name: Commit Wiki Changes if Any
+        if: steps.git-check.outputs.changes != '0'
+        run: |
+          git commit -m "Update wiki backup" -a
+          
+      - name: Push to GitLab Mirror
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          git remote add gitlab https://oauth2:${GITLAB_TOKEN}@gitlab.com/backup6695808/python-study.git
+          git push -f --all gitlab  # 모든 브랜치 푸시 (하지만 강제 덮어쓰지는 않음)
+          git push -f --tags gitlab  # 모든 태그 푸시
+        continue-on-error: true
+
+
+
+
+
+
+
+
+
+

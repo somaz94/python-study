@@ -11,6 +11,13 @@ Welcome to the Python Study Wiki. This Wiki serves as a central repository for t
 ## Korean Version (한국어 버전)
 
 ### Basic 
+- [KR\_Number](https://github.com/somaz94/python-study/wiki/KR_Number)
+- [KR\_String](https://github.com/somaz94/python-study/wiki/KR_String)
+- [KR\_List](https://github.com/somaz94/python-study/wiki/KR_List)
+- [KR\_Tuple](https://github.com/somaz94/python-study/wiki/KR_Tuple)
+- [KR\_Dictionary](https://github.com/somaz94/python-study/wiki/KR_Dictionary)
+- [KR\_Set](https://github.com/somaz94/python-study/wiki/KR_Set)
+
 
 
 <br/>
