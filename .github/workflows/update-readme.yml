@@ -7,16 +7,19 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 저장소 컨텐츠 쓰기 권한 추가
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}  # GitHub 토큰 추가
 
       - name: Configure Git
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Clone Wiki and Check Home.md
         id: check-wiki
@@ -42,7 +45,7 @@ jobs:
           # 변경사항 커밋 및 푸시
           git add README.md
           git commit -m "docs: Update README from Wiki Home.md" -a
-          git push
+          git push origin HEAD:main
           
       - name: Cleanup
         if: always()
