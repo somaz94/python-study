@@ -13,7 +13,7 @@ Welcome to the Python Study Wiki. This Wiki serves as a central repository for t
 ### Basic (기초)
 #### 1. 기본 데이터 타입
 - [KR_Variable](https://github.com/somaz94/python-study/wiki/KR_Variable) - 변수
-- [KR_DataType](https://github.com/somaz94/python-study/wiki/KR_DataType) - 데이터 타입 개요
+- [KR_DataType](https://github.com/somaz94/python-study/wiki/KR_DataType) - 데이터 타입
 - [KR_Number](https://github.com/somaz94/python-study/wiki/KR_Number) - 숫자
 - [KR_Literal](https://github.com/somaz94/python-study/wiki/KR_Literal) - 리터럴
 - [KR_String](https://github.com/somaz94/python-study/wiki/KR_String) - 문자열
