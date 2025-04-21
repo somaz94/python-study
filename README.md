@@ -24,72 +24,82 @@ Welcome to the Python Study Wiki. This Wiki serves as a central repository for t
 - [KR_Dictionary](https://github.com/somaz94/python-study/wiki/KR_Dictionary) - 딕셔너리
 - [KR_Set](https://github.com/somaz94/python-study/wiki/KR_Set) - 집합
 
-#### 3. 제어문과 함수
+#### 3. 제어 구조
 - [KR_Operator](https://github.com/somaz94/python-study/wiki/KR_Operator) - 연산자
 - [KR_If](https://github.com/somaz94/python-study/wiki/KR_If) - 조건문
 - [KR_For](https://github.com/somaz94/python-study/wiki/KR_For) - for 반복문
 - [KR_While](https://github.com/somaz94/python-study/wiki/KR_While) - while 반복문
 - [KR_ControlFlow](https://github.com/somaz94/python-study/wiki/KR_ControlFlow) - 제어 흐름
+
+#### 4. 함수
 - [KR_Function](https://github.com/somaz94/python-study/wiki/KR_Function) - 함수
+- [KR_Scope](https://github.com/somaz94/python-study/wiki/KR_Scope) - 스코프와 네임스페이스
+- [KR_Lambda](https://github.com/somaz94/python-study/wiki/KR_Lambda) - 람다 함수
 
-#### 4. 입출력
-- [KR_InputOutput](https://github.com/somaz94/python-study/wiki/KR_InputOutput) - 기본 입출력
-- [KR_FileIO](https://github.com/somaz94/python-study/wiki/KR_FileIO) - 파일 입출력
-- [KR_ProgramIO](https://github.com/somaz94/python-study/wiki/KR_ProgramIO) - 프로그램 입출력
-
-#### 5. 모듈과 예외처리
+#### 5. 모듈과 패키지
 - [KR_Module](https://github.com/somaz94/python-study/wiki/KR_Module) - 모듈
 - [KR_Package](https://github.com/somaz94/python-study/wiki/KR_Package) - 패키지
-- [KR_Exception](https://github.com/somaz94/python-study/wiki/KR_Exception) - 예외처리
 - [KR_BuiltIn](https://github.com/somaz94/python-study/wiki/KR_BuiltIn) - 내장 함수
 - [KR_StandardLibrary](https://github.com/somaz94/python-study/wiki/KR_StandardLibrary) - 표준 라이브러리
 - [KR_ExternalLibrary](https://github.com/somaz94/python-study/wiki/KR_ExternalLibrary) - 외부 라이브러리
 
+#### 6. 입출력
+- [KR_InputOutput](https://github.com/somaz94/python-study/wiki/KR_InputOutput) - 기본 입출력
+- [KR_FileIO](https://github.com/somaz94/python-study/wiki/KR_FileIO) - 파일 입출력
+- [KR_ProgramIO](https://github.com/somaz94/python-study/wiki/KR_ProgramIO) - 프로그램 입출력
+
+#### 7. 예외 처리
+- [KR_Exception](https://github.com/somaz94/python-study/wiki/KR_Exception) - 예외처리
+- [KR_Debugging](https://github.com/somaz94/python-study/wiki/KR_Debugging) - 디버깅
+- [KR_Logging](https://github.com/somaz94/python-study/wiki/KR_Logging) - 로깅
+
 <br/>
 
-### Advanced (고급)
-#### 1. 함수형 프로그래밍
-- [KR_Lambda](https://github.com/somaz94/python-study/wiki/KR_Lambda) - 람다 함수
+### Intermediate (중급)
+#### 1. 객체지향 프로그래밍
+- [KR_Class](https://github.com/somaz94/python-study/wiki/KR_Class) - 클래스
+- [KR_Inheritance](https://github.com/somaz94/python-study/wiki/KR_Inheritance) - 상속
+- [KR_MagicMethod](https://github.com/somaz94/python-study/wiki/KR_MagicMethod) - 매직 메서드
+
+#### 2. 고급 함수형 프로그래밍
 - [KR_Comprehension](https://github.com/somaz94/python-study/wiki/KR_Comprehension) - 컴프리헨션
 - [KR_Generator](https://github.com/somaz94/python-study/wiki/KR_Generator) - 제너레이터
 - [KR_Decorator](https://github.com/somaz94/python-study/wiki/KR_Decorator) - 데코레이터
 - [KR_Functional](https://github.com/somaz94/python-study/wiki/KR_Functional) - 함수형 프로그래밍
 
-#### 2. 객체지향 프로그래밍
-- [KR_Class](https://github.com/somaz94/python-study/wiki/KR_Class) - 클래스
-- [KR_Inheritance](https://github.com/somaz94/python-study/wiki/KR_Inheritance) - 상속
-- [KR_MagicMethod](https://github.com/somaz94/python-study/wiki/KR_MagicMethod) - 매직 메서드
-- [KR_Scope](https://github.com/somaz94/python-study/wiki/KR_Scope) - 스코프와 네임스페이스
-- [KR_MetaProgramming](https://github.com/somaz94/python-study/wiki/KR_MetaProgramming) - 메타프로그래밍
-
-#### 3. 동시성과 병렬처리
-- [KR_Threading](https://github.com/somaz94/python-study/wiki/KR_Threading) - 스레딩
-- [KR_Multiprocessing](https://github.com/somaz94/python-study/wiki/KR_Multiprocessing) - 멀티프로세싱
-- [KR_AsyncIO](https://github.com/somaz94/python-study/wiki/KR_AsyncIO) - 비동기 프로그래밍
-- [KR_Coroutine](https://github.com/somaz94/python-study/wiki/KR_Coroutine) - 코루틴
-
-#### 4. 데이터 처리와 분석
+#### 3. 데이터 처리
 - [KR_DateTime](https://github.com/somaz94/python-study/wiki/KR_DateTime) - 날짜와 시간
 - [KR_RegularExpression](https://github.com/somaz94/python-study/wiki/KR_RegularExpression) - 정규표현식
 - [KR_JSON](https://github.com/somaz94/python-study/wiki/KR_JSON) - JSON 처리
 - [KR_XML](https://github.com/somaz94/python-study/wiki/KR_XML) - XML 처리
 - [KR_CSV](https://github.com/somaz94/python-study/wiki/KR_CSV) - CSV 처리
-- [KR_ORM](https://github.com/somaz94/python-study/wiki/KR_ORM) - ORM
 
-#### 5. 데이터베이스
+#### 4. 데이터베이스
 - [KR_SQLite](https://github.com/somaz94/python-study/wiki/KR_SQLite) - SQLite
 - [KR_MySQL](https://github.com/somaz94/python-study/wiki/KR_MySQL) - MySQL
 - [KR_PostgreSQL](https://github.com/somaz94/python-study/wiki/KR_PostgreSQL) - PostgreSQL
+- [KR_ORM](https://github.com/somaz94/python-study/wiki/KR_ORM) - ORM
 - [KR_MongoDB](https://github.com/somaz94/python-study/wiki/KR_MongoDB) - MongoDB
 
-#### 6. API & 통신
+#### 5. 테스트
+- [KR_UnitTest](https://github.com/somaz94/python-study/wiki/KR_UnitTest) - 단위 테스트
+- [KR_Profiling](https://github.com/somaz94/python-study/wiki/KR_Profiling) - 성능 프로파일링
+
+#### 6. 패키징과 가상환경
+- [KR_Packaging](https://github.com/somaz94/python-study/wiki/KR_Packaging) - 패키지 만들기
+- [KR_VirtualEnv](https://github.com/somaz94/python-study/wiki/KR_VirtualEnv) - 가상환경
+
+<br/>
+
+### Advanced (고급)
+#### 1. 웹 프로그래밍
 - [KR_HTTP](https://github.com/somaz94/python-study/wiki/KR_HTTP) - HTTP 프로그래밍
 - [KR_WebSocket](https://github.com/somaz94/python-study/wiki/KR_WebSocket) - WebSocket
-- [KR_REST](https://github.com/somaz94/python-study/wiki/KR_REST) - REST AP크
+- [KR_REST](https://github.com/somaz94/python-study/wiki/KR_REST) - REST API
 - [KR_gRPC](https://github.com/somaz94/python-study/wiki/KR_gRPC) - gRPC
 - [KR_GraphQL](https://github.com/somaz94/python-study/wiki/KR_GraphQL) - GraphQL
 
-#### 7. 웹 프레임워크
+#### 2. 웹 프레임워크
 - [KR_Flask](https://github.com/somaz94/python-study/wiki/KR_Flask) - Flask
 - [KR_Django](https://github.com/somaz94/python-study/wiki/KR_Django) - Django
 - [KR_FastAPI](https://github.com/somaz94/python-study/wiki/KR_FastAPI) - FastAPI
@@ -98,42 +108,41 @@ Welcome to the Python Study Wiki. This Wiki serves as a central repository for t
 - [KR_Pyramid](https://github.com/somaz94/python-study/wiki/KR_Pyramid) - Pyramid
 - [KR_aiohttp](https://github.com/somaz94/python-study/wiki/KR_aiohttp) - aioHTTP
 - [KR_Bottle](https://github.com/somaz94/python-study/wiki/KR_Bottle) - Bottle
+
+#### 3. 동시성과 병렬처리
+- [KR_Threading](https://github.com/somaz94/python-study/wiki/KR_Threading) - 스레딩
+- [KR_Multiprocessing](https://github.com/somaz94/python-study/wiki/KR_Multiprocessing) - 멀티프로세싱
+- [KR_AsyncIO](https://github.com/somaz94/python-study/wiki/KR_AsyncIO) - 비동기 프로그래밍
+- [KR_Coroutine](https://github.com/somaz94/python-study/wiki/KR_Coroutine) - 코루틴
 - [KR_Celery](https://github.com/somaz94/python-study/wiki/KR_Celery) - Celery
 
-#### 8. 테스트와 디버깅
-- [KR_UnitTest](https://github.com/somaz94/python-study/wiki/KR_UnitTest) - 단위 테스트
-- [KR_Debugging](https://github.com/somaz94/python-study/wiki/KR_Debugging) - 디버깅
-- [KR_Logging](https://github.com/somaz94/python-study/wiki/KR_Logging) - 로깅
-- [KR_Profiling](https://github.com/somaz94/python-study/wiki/KR_Profiling) - 성능 프로파일링
-
-#### 9. 배포와 패키징
-- [KR_Packaging](https://github.com/somaz94/python-study/wiki/KR_Packaging) - 패키지 만들기
-- [KR_VirtualEnv](https://github.com/somaz94/python-study/wiki/KR_VirtualEnv) - 가상환경
-- [KR_Docker](https://github.com/somaz94/python-study/wiki/KR_Docker) - 도커
-- [KR_CI_CD](https://github.com/somaz94/python-study/wiki/KR_CI_CD) - CI/CD
-
-#### 10. 보안과 최적화
-- [KR_Security](https://github.com/somaz94/python-study/wiki/KR_Security) - 보안 프로그래밍
-- [KR_Optimization](https://github.com/somaz94/python-study/wiki/KR_Optimization) - 성능 최적화
-- [KR_Memory](https://github.com/somaz94/python-study/wiki/KR_Memory) - 메모리 관리
-- [KR_BestPractices](https://github.com/somaz94/python-study/wiki/KR_BestPractices) - 모범 사례
-
-#### 11. 데이터 과학
+#### 4. 데이터 과학
 - [KR_Numpy](https://github.com/somaz94/python-study/wiki/KR_Numpy) - NumPy
 - [KR_Pandas](https://github.com/somaz94/python-study/wiki/KR_Pandas) - Pandas
 - [KR_Matplotlib](https://github.com/somaz94/python-study/wiki/KR_Matplotlib) - Matplotlib
 - [KR_Scikit](https://github.com/somaz94/python-study/wiki/KR_Scikit) - Scikit-learn
 
-#### 12. 메시지 & 캐시
+#### 5. 메시지큐와 캐싱
 - [KR_Redis](https://github.com/somaz94/python-study/wiki/KR_Redis) - Redis
 - [KR_RabbitMQ](https://github.com/somaz94/python-study/wiki/KR_RabbitMQ) - RabbitMQ
 - [KR_Kafka](https://github.com/somaz94/python-study/wiki/KR_Kafka) - Kafka
 - [KR_Memcached](https://github.com/somaz94/python-study/wiki/KR_Memcached) - Memcached
 
+#### 6. 배포와 운영
+- [KR_Docker](https://github.com/somaz94/python-study/wiki/KR_Docker) - 도커
+- [KR_CI_CD](https://github.com/somaz94/python-study/wiki/KR_CI_CD) - CI/CD
+- [KR_Security](https://github.com/somaz94/python-study/wiki/KR_Security) - 보안 프로그래밍
+- [KR_Optimization](https://github.com/somaz94/python-study/wiki/KR_Optimization) - 성능 최적화
+- [KR_Memory](https://github.com/somaz94/python-study/wiki/KR_Memory) - 메모리 관리
+- [KR_BestPractices](https://github.com/somaz94/python-study/wiki/KR_BestPractices) - 모범 사례
+
+#### 7. 메타프로그래밍
+- [KR_MetaProgramming](https://github.com/somaz94/python-study/wiki/KR_MetaProgramming) - 메타프로그래밍
+
 <br/>
 
 ## English Version (영어 버전)
-
+<!-- 추후 영어 버전 추가 예정 -->
 
 ---------------------------
 
